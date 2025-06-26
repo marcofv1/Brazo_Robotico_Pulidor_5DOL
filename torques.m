@@ -4,9 +4,9 @@ function tau_exp = torques()
     syms Fx Fy Fz real
 
     % Posición simbólica del efector final
-    px = 125 + 110*sin(th3 - th4) + 100*cos(th4);
-    py = 130;  % constante
-    pz = -110*cos(th3 - th4) - 100*sin(th4);
+    px = (125 + 110*sin(th3 - th4) + 100*cos(th4)) / 1000;
+    py = 130 / 1000;
+    pz = (-110*cos(th3 - th4) - 100*sin(th4)) / 1000;
     p = [px; py; pz];
 
     % Vector de variables articulares
