@@ -18,7 +18,7 @@ Para el control del robot se usa un [XIAO ESP32 C3](https://wiki.seeedstudio.com
 
 Para hacer funcionar el robot, primero se debe de compilar el [archivo .ino](./ConexionMatlab.ino) llamado `ConexionMatlab`, para que el Arduino por el puerto serial esté esperando constantemente los ángulos que envía el código de Matlab. En el caso de Matlab, se deben de tener todos los códigos en una misma carpeta para que se puedan llamar entre ellos. 
 
-Se utiliza cinemática directa, inversa y seguidamente se le dan puntos con trayectoria de polinomios cúbicos para realizar los barridos en el pulido. El código `main` es [Proyecto_Brazo_Pulidor.m](./Proyecto_Brazo_Pulidor.m), a partir de este tenemos un brazo de pulido funcional. En este código no se contemplan todos los cálculos en sí, pero para entender dicho desgloce, pero en el archivo [Informe final](./Informe_final.pdf) se puede ver la explicación de todos los cálculos necesarios que respaldan dicho código.
+Se utiliza cinemática directa, inversa y seguidamente se le dan puntos con trayectoria de polinomios cúbicos para realizar los barridos en el pulido. El código `main` es [Proyecto_Brazo_Pulidor.m](./Proyecto_Brazo_Pulidor.m), a partir de este tenemos un brazo de pulido funcional. En este código no se contemplan todos los cálculos en sí, pero para entender dicho desgloce, pero en el archivo [Informe final](./Informe_final.pdf) se puede ver la explicación de todos los cálculos necesarios que respaldan dicho código, además se tiene un video de demostración de funcionamiento en [YouTube](https://www.youtube.com/watch?v=dMsFVONa-UM).
 
 ---
 
@@ -26,3 +26,4 @@ Se utiliza cinemática directa, inversa y seguidamente se le dan puntos con tray
 - Kaleb Granados: [kalebgranac13@gmail.com](mailto:kalebgranac13@gmail.com)  
 - Marco Flores [marflo73@gmail.com](mailto:marflo73@gmail.com)   
 - Gregory Jiménez: [gregoryjime28@gmail.com](mailto:gregoryjime28@gmail.com)
+
